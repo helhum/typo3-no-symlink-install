@@ -12,19 +12,7 @@
         }
     ],
     "require": {
-        "typo3/cms-composer-installers": "^1.4",
-        "typo3/cms": "^7.6 || ^8.7",
-        "typo3/cms-backend": "^7.6 || ^8.7",
-        "typo3/cms-core": "^7.6 || ^8.7",
-        "typo3/cms-extbase": "^7.6 || ^8.7",
-        "typo3/cms-extensionmanager": "^7.6 || ^8.7",
-        "typo3/cms-filelist": "^7.6 || ^8.7",
-        "typo3/cms-fluid": "^7.6 || ^8.7",
-        "typo3/cms-frontend": "^7.6 || ^8.7",
-        "typo3/cms-install": "^7.6 || ^8.7",
-        "typo3/cms-lang": "^7.6 || ^8.7",
-        "typo3/cms-recordlist": "^7.6 || ^8.7",
-        "typo3/cms-saltedpassword": "^7.6 || ^8.7"
+        "helhum/typo3-composer-setup": "^0.1 || ^1.0@dev"
     },
     "require-dev": {
         "typo3/cms": "^7.6"
