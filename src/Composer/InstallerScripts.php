@@ -34,10 +34,10 @@ class InstallerScripts implements InstallerScriptsRegistration
     {
         $composer = $event->getComposer();
         $pluginConfig = Config::load($composer);
-        $webDir = $pluginConfig->get('root-dir');
+        $rootDir = $pluginConfig->get('root-dir');
 
         $scriptDispatcher->addInstallerScript(
-            new RootDirectory($webDir, RootDirectory::PUBLISH_STRATEGY_MIRROR),
+            new RootDirectory($rootDir, RootDirectory::PUBLISH_STRATEGY_MIRROR),
             75
         );
     }
