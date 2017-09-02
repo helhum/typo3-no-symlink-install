@@ -16,7 +16,7 @@ namespace Helhum\Typo3NoSymlinkInstall\Composer;
  */
 
 use Composer\Script\Event;
-use Helhum\Typo3ComposerSetup\Composer\InstallerScripts\RootDirectory;
+use Helhum\Typo3ComposerSetup\Composer\InstallerScript\RootDirectory;
 use TYPO3\CMS\Composer\Plugin\Config;
 use TYPO3\CMS\Composer\Plugin\Core\InstallerScriptsRegistration;
 use TYPO3\CMS\Composer\Plugin\Core\ScriptDispatcher;
