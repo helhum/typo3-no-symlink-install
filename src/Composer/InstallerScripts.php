@@ -38,7 +38,7 @@ class InstallerScripts implements InstallerScriptsRegistration
 
         $scriptDispatcher->addInstallerScript(
             new RootDirectory($rootDir, RootDirectory::PUBLISH_STRATEGY_MIRROR),
-            75
+            90
         );
     }
 }
